@@ -1,0 +1,80 @@
+
+/* Spice Royale - App Layout */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-content {
+  width: 100%;
+  min-height: 65vh;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition: all 0.2s ease;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #b94d24;
+  outline-offset: 3px;
+}
+
+.food-card img,
+.details-image,
+.about-image {
+  background: #f1e5d8;
+}
+
+.food-image-link {
+  display: block;
+  overflow: hidden;
+}
+
+.food-image-link img,
+.food-image-wrap > a img {
+  transition: transform 0.3s ease;
+}
+
+.food-card:hover .food-image {
+  transform: scale(1.025);
+}
+
+.food-card {
+  min-width: 0;
+}
+
+.checkout-form label,
+.admin-form label {
+  color: #49352a;
+}
+
+.checkout-form textarea,
+.admin-form textarea {
+  resize: vertical;
+}
+
+.success-message {
+  border: 1px solid #d2e7c9;
+}
+
+.form-message {
+  margin: 18px 0;
+}
+
+@media (max-width: 600px) {
+  #root {
+    overflow-x: hidden;
+  }
+
+  .main-content {
+    min-height: 55vh;
+  }
+}
+
+

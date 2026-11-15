@@ -1,0 +1,39 @@
+
+# Node
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot
+target/
+build/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local database backups
+*.sql
+*.dump
+*.bak
